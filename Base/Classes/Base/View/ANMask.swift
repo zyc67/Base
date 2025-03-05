@@ -3,7 +3,7 @@
 //  Source
 //
 //  Created by remy on 2020/1/18.
-//  Copyright © 2020 com.Andmix. All rights reserved.
+//  Copyright © 2020 com.Base. All rights reserved.
 //
 
 open class ANMask {

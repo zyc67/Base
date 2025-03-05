@@ -1,6 +1,6 @@
 //
 //  UIScrollViewEx.swift
-//  Andmix
+//  Base
 //
 //  Created by remy on 2018/6/5.
 //

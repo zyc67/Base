@@ -1,6 +1,6 @@
 //
 //  CollectionVC.swift
-//  Andmix
+//  Base
 //
 //  Created by remy on 2018/8/14.
 //

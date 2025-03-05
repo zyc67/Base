@@ -1,6 +1,6 @@
 //
 //  NetworkManager.swift
-//  Andmix
+//  Base
 //
 //  Created by remy on 2018/4/2.
 //
@@ -67,11 +67,11 @@ public final class NetworkManager {
     private let provider: MoyaProvider<MultiTarget>
     /// 缓存操作队列
     private static var ioQueue: DispatchQueue = {
-        return DispatchQueue(label: "com.adios.Andmix.network")
+        return DispatchQueue(label: "com.adios.Base.network")
     }()
     /// 缓存根目录
     private static var cacheRootPath: String = {
-        return FileManager.userCachesPath.appendingPathComponent("com.adios.Andmix.network")
+        return FileManager.userCachesPath.appendingPathComponent("com.adios.Base.network")
     }()
     /// 应用版本号区分的缓存目录
     private static var cachePath: String = {

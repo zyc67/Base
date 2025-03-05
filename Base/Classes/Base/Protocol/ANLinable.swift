@@ -3,7 +3,7 @@
 //  Source
 //
 //  Created by remy on 2019/3/9.
-//  Copyright © 2019 com.Andmix. All rights reserved.
+//  Copyright © 2019 com.Base. All rights reserved.
 //
 
 import SnapKit
