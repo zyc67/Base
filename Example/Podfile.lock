@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.10.2)
+  - Base (0.1.0):
+    - DeviceKit
+    - Moya
+    - SnapKit
+    - SwiftyJSON
+  - DeviceKit (4.9.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SnapKit (5.6.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Base (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DeviceKit
+    - Moya
+    - SnapKit
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Base:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  Base: a454432b04cfb2de9f46ff14c379061e16634b0f
+  DeviceKit: 847709bf70b78fd9ab765bd571fb9f5f815c3fc1
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 09354386876d84c624497b421144773be65d7c2c
+
+COCOAPODS: 1.16.2

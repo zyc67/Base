@@ -1,0 +1,41 @@
+{
+  "name": "Base",
+  "version": "0.1.0",
+  "summary": "A short description of Base.",
+  "description": "this is a swift base component library",
+  "homepage": "https://github.com/yongchao.zhao/Base",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yongchao.zhao": "yongchao.zhao@xuanxiaodi.com"
+  },
+  "source": {
+    "git": "https://github.com/yongchao.zhao/Base.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "Base/Classes/**/*",
+  "resource_bundles": {
+    "Base": [
+      "Base/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "DeviceKit": [
+
+    ],
+    "Moya": [
+
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  }
+}
