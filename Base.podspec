@@ -28,11 +28,25 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'Base/Classes/**/*'
-  
-  s.resource_bundles = {
-    'Base' => ['Base/Assets/*.png']
-  }
+
+  s.subspec 'Extension' do |ss|
+        ss.source_files = 'Base/Classes/Extension/**/*'
+        ss.dependency 'DeviceKit'
+    end
+    s.subspec 'Base' do |ss|
+        ss.source_files = 'Base/Classes/Base/**/*'
+        ss.dependency 'Base/Extension'
+        ss.dependency 'Moya'
+        ss.dependency 'SwiftyJSON'
+        ss.dependency 'SnapKit'
+    end
+    s.subspec 'Refresh' do |ss|
+        ss.source_files = 'Base/Classes/Refresh/**/*.swift'
+        ss.dependency 'Base/Extension'
+        ss.resource_bundles = {
+            'Refresh' => ['Base/Assets/*.png']
+        }
+    end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
